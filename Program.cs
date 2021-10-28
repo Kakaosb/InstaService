@@ -179,7 +179,7 @@ namespace InstaService
 
         static void Next()
         {
-            Driver.FindElement(By.XPath(".//a[contains(@class, 'coreSpriteRightPaginationArrow')]")).Click();
+            Driver.FindElement(By.XPath(".//div[contains(@class, ' l8mY4 ')]")).Click();
         }
     }
 }
